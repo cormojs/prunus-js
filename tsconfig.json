@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["node_modules/@types", "types"],    
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es2015",
+    "jsx": "react",
+    "alwaysStrict": true,
+    "lib":[
+      "es2015", "dom"
+    ]
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "usePrecompiledFiles": true,
+    "forceIsolatedModules": true
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
